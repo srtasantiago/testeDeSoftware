@@ -10,3 +10,18 @@ Criar um sistema que auxilie a:
 - Encaminhar pets para adoção responsável  
 - Reduzir o número de animais abandonados nas ruas  
 - Conectar pessoas dispostas a ajudar a quem precisa de apoio
+
+## Problema a Ser Resolvido
+
+Muitos animais são abandonados todos os dias, e quem quer ajudar, como voluntários, ONGs e cidadãos comuns, muitas vezes não consegue se comunicar de forma rápida e organizada. Sem um lugar central para divulgar essas informações, fica difícil unir forças e fazer com que as ações realmente tenham impacto. E através da criação de um sistema unificado e acessível, será possível promover a *empatia, o **voluntariado* e a *adoção consciente*, além de facilitar o compartilhamento de informações importantes e o apoio dentro da comunidade.
+
+## Público-Alvo
+
+- Protetores independentes  
+- ONGs de proteção animal  
+- Cuidadores temporários  
+- Pessoas interessadas em adotar ou ajudar animais
+
+## Sobre o projeto
+
+Este projeto está sendo desenvolvido como parte da disciplina de Teste de Software, com o objetivo de aplicar na prática os conhecimentos adquiridos.
