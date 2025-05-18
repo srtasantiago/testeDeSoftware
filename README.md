@@ -25,3 +25,22 @@ Muitos animais são abandonados todos os dias, e quem quer ajudar, como voluntá
 ## Sobre o projeto
 
 Este projeto está sendo desenvolvido como parte da disciplina de Teste de Software, com o objetivo de aplicar na prática os conhecimentos adquiridos.
+
+## Funcionalidades
+
+- Cadastro de usuário
+- Login
+- Atualizar dados pessoais
+- Remover conta
+- Publicação de animais perdidos
+- Publicação de solicitação de resgate
+- Publicação de oferta de lar temporário
+- Ações de adoção de animais
+- Ações de doação de itens
+- Comentários nas publicações
+
+## Requisitos
+
+### Link: 
+
+https://docs.google.com/document/d/1MGLWibnqlCr8ohy6zmXXbSQ3mpZLP1MkVvk7VH6y0WI/edit?usp=sharing
