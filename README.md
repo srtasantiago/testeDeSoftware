@@ -48,7 +48,7 @@ https://docs.google.com/document/d/1MGLWibnqlCr8ohy6zmXXbSQ3mpZLP1MkVvk7VH6y0WI/
 ## Diagrama de classe e caso de uso
 
 ### Diagrama de Classe
-![Diagrama de Classe](diagramaClasse.png)
+![Diagrama de Classe](/home/debora13/projetoTeste/testeDeSoftware-1/diagramaClasse.png)
 
 ### Diagrama de Casos de Uso
-![Diagrama de Casos de Uso](casoUso.png)
+![Diagrama de Casos de Uso](/home/debora13/projetoTeste/testeDeSoftware-1/casoUso.png)
