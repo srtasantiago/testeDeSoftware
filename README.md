@@ -41,7 +41,7 @@ Este projeto está sendo desenvolvido como parte da disciplina de Teste de Softw
 
 ## Requisitos
 
-### Link: https://docs.google.com/document/d/1MGLWibnqlCr8ohy6zmXXbSQ3mpZLP1MkVvk7VH6y0WI/edit?usp=sharing
+[Link para a lista de Requisitos](https://docs.google.com/document/d/1MGLWibnqlCr8ohy6zmXXbSQ3mpZLP1MkVvk7VH6y0WI/edit?usp=sharing)
 
 ## Diagrama de classe e caso de uso
 
@@ -53,7 +53,7 @@ Este projeto está sendo desenvolvido como parte da disciplina de Teste de Softw
 
 ## Plano de teste
 
-### Link: https://docs.google.com/document/d/1eoneNlYJbcNb8QwIK3_SNCSZzrJPcfX003BJDtlQ_6s/edit?tab=t.0#heading=h.e4vveyg2l8bb
+[Link para o Plano de Teste](https://docs.google.com/document/d/1eoneNlYJbcNb8QwIK3_SNCSZzrJPcfX003BJDtlQ_6s/edit?tab=t.0#heading=h.e4vveyg2l8bb)
 
 ## Modelo lógico de dados
 
