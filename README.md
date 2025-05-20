@@ -41,9 +41,7 @@ Este projeto está sendo desenvolvido como parte da disciplina de Teste de Softw
 
 ## Requisitos
 
-### Link: 
-
-https://docs.google.com/document/d/1MGLWibnqlCr8ohy6zmXXbSQ3mpZLP1MkVvk7VH6y0WI/edit?usp=sharing
+### Link: https://docs.google.com/document/d/1MGLWibnqlCr8ohy6zmXXbSQ3mpZLP1MkVvk7VH6y0WI/edit?usp=sharing
 
 ## Diagrama de classe e caso de uso
 
@@ -52,3 +50,15 @@ https://docs.google.com/document/d/1MGLWibnqlCr8ohy6zmXXbSQ3mpZLP1MkVvk7VH6y0WI/
 
 ### Diagrama de Casos de Uso
 ![Diagrama de Casos de Uso](casoUso.png)
+
+## Plano de teste
+
+### Link: https://docs.google.com/document/d/1eoneNlYJbcNb8QwIK3_SNCSZzrJPcfX003BJDtlQ_6s/edit?tab=t.0#heading=h.e4vveyg2l8bb
+
+## Modelo lógico de dados
+
+![Modelo lógico][modeloLogico.png]
+
+## Apresentação parcial do projeto
+
+![Slide][ConectaPatas.pdf]
