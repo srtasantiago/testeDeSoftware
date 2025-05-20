@@ -46,7 +46,7 @@ Este projeto está sendo desenvolvido como parte da disciplina de Teste de Softw
 ## Diagrama de classe e caso de uso
 
 ### Diagrama de Classe
-![Diagrama de Classe](diagramaClasse.png)
+![Diagrama de Classe](Classe.png)
 
 ### Diagrama de Casos de Uso
 ![Diagrama de Casos de Uso](casoUso.png)
