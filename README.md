@@ -44,3 +44,11 @@ Este projeto está sendo desenvolvido como parte da disciplina de Teste de Softw
 ### Link: 
 
 https://docs.google.com/document/d/1MGLWibnqlCr8ohy6zmXXbSQ3mpZLP1MkVvk7VH6y0WI/edit?usp=sharing
+
+## Diagrama de classe e caso de uso
+
+### Diagrama de Classe
+![Diagrama de Classe](diagramaClasse.png)
+
+### Diagrama de Casos de Uso
+![Diagrama de Casos de Uso](diagramaCasoUso.png)
