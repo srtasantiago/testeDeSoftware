@@ -57,8 +57,8 @@ Este projeto está sendo desenvolvido como parte da disciplina de Teste de Softw
 
 ## Modelo lógico de dados
 
-![Modelo lógico][modeloLogico.png]
+![Modelo lógico](modeloLogico.png)
 
 ## Apresentação parcial do projeto
 
-![Slide][ConectaPatas.pdf]
+[Slide (PDF)](ConectaPatas.pdf)
