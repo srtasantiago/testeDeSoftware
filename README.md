@@ -51,4 +51,4 @@ https://docs.google.com/document/d/1MGLWibnqlCr8ohy6zmXXbSQ3mpZLP1MkVvk7VH6y0WI/
 ![Diagrama de Classe](diagramaClasse.png)
 
 ### Diagrama de Casos de Uso
-![Diagrama de Casos de Uso](diagramaCasoUso.png)
+![Diagrama de Casos de Uso](casoUso.png)
