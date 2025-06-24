@@ -68,6 +68,9 @@ Este projeto está sendo desenvolvido como parte da disciplina de Teste de Softw
 
 [Link para a lista de Requisitos](https://docs.google.com/document/d/1EYoQ44Gx-95OogUSofc3tyotbXlKsMWm8AIZHBd4r20/edit?usp=sharing)
 
+## Figma
+
+[Link para as telas do figma ](https://www.figma.com/design/d7kZKToOoIcSnbQESBHwTy/conectapatas?node-id=151-222&t=MC8lC0GFTquzLjSG-1)
 
 ## Plano de teste
 
