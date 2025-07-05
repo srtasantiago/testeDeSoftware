@@ -1,70 +1,89 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Conecta patas
 
-## Available Scripts
+ Conecta Patas é uma plataforma em desenvolvimento dedicada à causa animal, com o objetivo de conectar pessoas em torno de um propósito comum: ajudar animais em situação de vulnerabilidade.
 
-In the project directory, you can run:
+Atualmente, o sistema permite a publicação de casos de animais que precisam de resgate e anúncios de pets perdidos, funcionando como um canal centralizado para visibilidade e colaboração em ações de proteção e reencontro.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Objetivo do projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O Conecta Patas nasceu para ser mais do que uma ferramenta: uma rede de apoio e empatia. Utilizando a tecnologia como ponte entre quem precisa de ajuda e quem pode oferecer apoio, a plataforma fortalece a causa animal com foco em agilidade, visibilidade e colaboração.
 
-### `npm test`
+Criar um sistema que auxilie a:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Encontrar animais perdidos    
+- Publicar anuncios sobre animais que precisam ser resgatados.
+  
 
-### `npm run build`
+## Problema a Ser Resolvido
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Atualmente, não existe uma plataforma centralizada, acessível e confiável dedicada exclusivamente à divulgação de animais perdidos e resgatados. Como resultado:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As informações ficam espalhadas por grupos de redes sociais, dificultando o alcance e a visibilidade;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pessoas que encontram animais perdidos muitas vezes não sabem onde ou como divulgar;
 
-### `npm run eject`
+Tutores de pets perdidos enfrentam barreiras para alcançar quem possa tê-los visto ou resgatado;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ações de resgate ficam descoordenadas e sem apoio da comunidade;
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O tempo é um fator crítico, e cada minuto conta na tentativa de reencontrar um animal perdido.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Público-Alvo
 
-## Learn More
+- Protetores independentes  
+- ONGs de proteção animal  
+- Cuidadores temporários  
+- Pessoas interessadas em ajudar em resgates de animais
+- Tutores de animais de estimação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Idade: 18 a 50+ anos
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Perfil: empático, preocupado com bem-estar animal, ativo nas redes sociais
 
-### Code Splitting
+Localização: urbano
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Sobre o projeto
 
-### Making a Progressive Web App
+Este projeto está sendo desenvolvido como parte da disciplina de Teste de Software, com o objetivo de aplicar na prática os conhecimentos adquiridos.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Funcionalidades
 
-### Advanced Configuration
+- Cadastro de usuário
+- Login
+- visualizar usuário
+- Atualizar dados pessoais
+- Remover conta
+- Publicação de animais perdidos
+- Listar animais perdidos ou para resgate
+- Publicação de solicitação de resgate
+- Deletar animais perdidos 
+- Atualizar animais perdidos
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Requisitos
 
-### Deployment
+[Link para a lista de Requisitos](https://docs.google.com/document/d/1EYoQ44Gx-95OogUSofc3tyotbXlKsMWm8AIZHBd4r20/edit?usp=sharing)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Figma
 
-### `npm run build` fails to minify
+[Link para as telas do figma ](https://www.figma.com/design/d7kZKToOoIcSnbQESBHwTy/conectapatas?node-id=151-222&t=MC8lC0GFTquzLjSG-1)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Plano de teste
+
+[Link para o Plano de Teste](https://docs.google.com/document/d/1ogmaCmsnZOwq7BL4XullzyBlkHxYnEkJ/edit?usp=sharing&ouid=107865142840648322558&rtpof=true&sd=true)
+
+## Casos de teste
+
+[Link para os Casos de Teste](https://docs.google.com/document/d/158eECxkbcNQG_3RfBxjyvDJ1ADKsxnoz/edit?usp=sharing&ouid=107865142840648322558&rtpof=true&sd=true)
+
+
+
+## Apresentação parcial do projeto
+
+[Slide (PDF)](https://www.canva.com/design/DAGqiraEEr0/HEIzGh0mWJurnMMIwa3FcQ/edit?utm_content=DAGqiraEEr0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+>>>>>>> 73866a7a46da890023965a1abeef17fd12bab65f
