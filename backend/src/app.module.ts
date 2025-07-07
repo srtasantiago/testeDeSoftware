@@ -1,6 +1,9 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
+import { UsersModule } from './modules/user/user.module';
+import { AuthModule } from './modules/auth/auth.module';
+import { AnimalsModule } from './modules/animals/animals.module';
 
 @Module({
   imports: [
@@ -15,8 +18,12 @@ import { ConfigModule } from '@nestjs/config';
       password: process.env.DB_PASSWORD || 'postgres',
       database: process.env.DB_DATABASE || 'animais_perdidos',
       synchronize: process.env.NODE_ENV !== 'production',
+      entities: [__dirname + '/**/*.entity{.ts,.js}'],
       logging: true,
     }),
+    UsersModule,
+    AnimalsModule,
+    AuthModule,
   ],
 })
 export class AppModule {}
