@@ -4,14 +4,14 @@ import { Repository } from 'typeorm';
 import { CreateAnimalDto } from './dto/create-animal.dto';
 import { UpdateAnimalDto } from './dto/update-animal.dto';
 import { Animal } from '../../core/entities/animal.entity';
-import { S3Service } from '../../core/s3/s3.service';
+import { CloudinaryService } from '../../core/cloudinary/cloudinary.service';
 
 @Injectable()
 export class AnimalsService {
   constructor(
     @InjectRepository(Animal)
     private readonly animalsRepository: Repository<Animal>,
-    private readonly s3Service: S3Service
+    private readonly cloudinaryService: CloudinaryService
   ) {}
 
   async create(createAnimalDto: CreateAnimalDto, userId: string): Promise<Animal> {
@@ -32,13 +32,13 @@ export class AnimalsService {
 
     if (animal.imagem_url) {
       try {
-        await this.s3Service.deleteFile(animal.imagem_url);
+        await this.cloudinaryService.deleteFile(animal.imagem_url);
       } catch (error) {
         console.error('Erro ao deletar imagem antiga:', error);
       }
     }
 
-    const imagemUrl = await this.s3Service.uploadFile(file, 'animals');
+    const imagemUrl = await this.cloudinaryService.uploadFile(file);
 
     animal.imagem_url = imagemUrl;
     return await this.animalsRepository.save(animal);
