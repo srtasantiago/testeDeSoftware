@@ -1,3 +1,4 @@
+
 # Conecta patas
 
  Conecta Patas é uma plataforma em desenvolvimento dedicada à causa animal, com o objetivo de conectar pessoas em torno de um propósito comum: ajudar animais em situação de vulnerabilidade.
@@ -85,3 +86,4 @@ Este projeto está sendo desenvolvido como parte da disciplina de Teste de Softw
 ## Apresentação parcial do projeto
 
 [Slide (PDF)](https://www.canva.com/design/DAGqiraEEr0/HEIzGh0mWJurnMMIwa3FcQ/edit?utm_content=DAGqiraEEr0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+>>>>>>> 73866a7a46da890023965a1abeef17fd12bab65f
