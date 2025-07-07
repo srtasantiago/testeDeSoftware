@@ -35,6 +35,9 @@ export class Animal {
   @Column({ length: 255 })
   status: string;
 
+  @Column({ type: 'text', nullable: true })
+  imagem_url: string;
+
   @CreateDateColumn()
   criadoEm: Date;
 

@@ -1,10 +1,12 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards, Request, Query, Put } from '@nestjs/common';
+import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards, Request, Query, Put, UseInterceptors, UploadedFile, ParseFilePipe, MaxFileSizeValidator, FileTypeValidator } from '@nestjs/common';
 import { AnimalsService } from './animals.service';
 import { CreateAnimalDto } from './dto/create-animal.dto';
 import { UpdateAnimalDto } from './dto/update-animal.dto';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
+import { FileInterceptor } from '@nestjs/platform-express';
 
 @Controller('animals')
+@UseGuards(JwtAuthGuard)
 export class AnimalsController {
   constructor(private readonly animalsService: AnimalsService) {}
 
@@ -27,6 +29,35 @@ export class AnimalsController {
     return {
       success: true,
       data: result,
+    };
+  }
+
+  @Post(':id/image')
+  @UseGuards(JwtAuthGuard)
+  @UseInterceptors(FileInterceptor('imagem'))
+  async uploadImage(
+    @Param('id') id: string,
+    @Request() req,
+    @UploadedFile(
+      new ParseFilePipe({
+        validators: [
+          new MaxFileSizeValidator({ maxSize: 5 * 1024 * 1024 }), // 5MB
+          new FileTypeValidator({ fileType: /^image\/(jpeg|png|jpg|gif|webp)$/ }),
+        ],
+        fileIsRequired: true,
+      }),
+    )
+    file: Express.Multer.File,
+  ) {
+    const animal = await this.animalsService.uploadImage(id, req.user.userId, file);
+    
+    return {
+      success: true,
+      message: 'Imagem enviada com sucesso',
+      data: { 
+        animal,
+        imagem_url: animal.imagem_url 
+      },
     };
   }
 

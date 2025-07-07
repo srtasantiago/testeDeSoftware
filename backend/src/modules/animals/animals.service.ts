@@ -4,12 +4,14 @@ import { Repository } from 'typeorm';
 import { CreateAnimalDto } from './dto/create-animal.dto';
 import { UpdateAnimalDto } from './dto/update-animal.dto';
 import { Animal } from '../../core/entities/animal.entity';
+import { S3Service } from '../../core/s3/s3.service';
 
 @Injectable()
 export class AnimalsService {
   constructor(
     @InjectRepository(Animal)
-    private animalsRepository: Repository<Animal>,
+    private readonly animalsRepository: Repository<Animal>,
+    private readonly s3Service: S3Service
   ) {}
 
   async create(createAnimalDto: CreateAnimalDto, userId: string): Promise<Animal> {
@@ -18,6 +20,27 @@ export class AnimalsService {
       user_id: userId,
     });
 
+    return await this.animalsRepository.save(animal);
+  }
+
+  async uploadImage(id: string, userId: string, file: Express.Multer.File): Promise<Animal> {
+    const animal = await this.findOne(id);
+
+    if (animal.user_id !== userId) {
+      throw new ForbiddenException('Não autorizado');
+    }
+
+    if (animal.imagem_url) {
+      try {
+        await this.s3Service.deleteFile(animal.imagem_url);
+      } catch (error) {
+        console.error('Erro ao deletar imagem antiga:', error);
+      }
+    }
+
+    const imagemUrl = await this.s3Service.uploadFile(file, 'animals');
+
+    animal.imagem_url = imagemUrl;
     return await this.animalsRepository.save(animal);
   }
 
