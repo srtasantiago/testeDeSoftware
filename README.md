@@ -75,7 +75,7 @@ Este projeto está sendo desenvolvido como parte da disciplina de Teste de Softw
 
 ## Plano de teste
 
-[Link para o Plano de Teste](https://docs.google.com/document/d/1ogmaCmsnZOwq7BL4XullzyBlkHxYnEkJ/edit?usp=sharing&ouid=107865142840648322558&rtpof=true&sd=true)
+[Link para o Plano de Teste](https://docs.google.com/document/d/1YwLPc9b5DSMtCJcESUj04BqrZhdgsl1hS6jMqaI3jrA/edit?usp=sharing)
 
 ## Casos de teste
 
