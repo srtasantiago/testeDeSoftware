@@ -1,9 +1,13 @@
 
 # Conecta patas
 
- Conecta Patas é uma plataforma em desenvolvimento dedicada à causa animal, com o objetivo de conectar pessoas em torno de um propósito comum: ajudar animais em situação de vulnerabilidade.
+ O Conecta Patas é um ponto de encontro para pessoas que acreditam no poder da empatia e do cuidado com os animais. Criado para unir corações que querem ajudar, o sistema permite que você cadastre e visualize anúncios de animais perdidos ou em situação de resgate, informando o local, a situação e detalhes importantes que podem salvar vidas.
 
-Atualmente, o sistema permite a publicação de casos de animais que precisam de resgate e anúncios de pets perdidos, funcionando como um canal centralizado para visibilidade e colaboração em ações de proteção e reencontro.
+A cada anúncio publicado, existe uma história de amor, saudade ou esperança. A cada ajuda recebida, um laço se forma entre humanos e animais que só queriam ser encontrados ou acolhidos.
+Aqui, quem ama os animais encontra um jeito de agir — seja ajudando, divulgando ou encontrando seu bichinho novamente.
+
+Conecta Patas: onde a solidariedade encontra patas perdidas, e cada clique pode mudar um destino.
+
 
 
 ## Objetivo do projeto
