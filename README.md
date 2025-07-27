@@ -12,27 +12,30 @@ Conecta Patas: onde a solidariedade encontra patas perdidas, e cada clique pode 
 
 ## Objetivo do projeto
 
-O Conecta Patas nasceu para ser mais do que uma ferramenta: uma rede de apoio e empatia. Utilizando a tecnologia como ponte entre quem precisa de ajuda e quem pode oferecer apoio, a plataforma fortalece a causa animal com foco em agilidade, visibilidade e colaboração.
+O Conecta Patas é uma plataforma que conecta pessoas dispostas a ajudar com quem precisa de apoio para resgatar ou reencontrar animais. Usando a tecnologia como aliada, o sistema fortalece a causa animal com foco em rapidez, visibilidade e colaboração.
 
-Criar um sistema que auxilie a:
+Seus objetivos são:
 
-- Encontrar animais perdidos    
-- Publicar anuncios sobre animais que precisam ser resgatados.
+Facilitar o reencontro de animais perdidos com seus tutores;
+
+Divulgar casos de animais que precisam ser resgatados, permitindo ações rápidas por parte de voluntários.
   
 
 ## Problema a Ser Resolvido
 
-Atualmente, não existe uma plataforma centralizada, acessível e confiável dedicada exclusivamente à divulgação de animais perdidos e resgatados. Como resultado:
+Atualmente, não existe uma plataforma centralizada, acessível e confiável dedicada exclusivamente à divulgação de animais perdidos ou que precisam ser resgatados. Como consequência, muitos esforços se perdem pelo caminho:
 
-As informações ficam espalhadas por grupos de redes sociais, dificultando o alcance e a visibilidade;
+As informações ficam dispersas em grupos de redes sociais, dificultando o alcance e reduzindo as chances de reencontro;
 
 Pessoas que encontram animais perdidos muitas vezes não sabem onde ou como divulgar;
 
-Tutores de pets perdidos enfrentam barreiras para alcançar quem possa tê-los visto ou resgatado;
+Tutores enfrentam dificuldades para alcançar quem possa ter visto ou acolhido seus pets;
 
-Ações de resgate ficam descoordenadas e sem apoio da comunidade;
+As ações de resgate tornam-se desorganizadas e sem o apoio necessário da comunidade;
 
-O tempo é um fator crítico, e cada minuto conta na tentativa de reencontrar um animal perdido.
+E o mais grave: o tempo, que é essencial nessas situações, acaba sendo desperdiçado.
+
+É nesse cenário que o Conecta Patas surge como solução: reunindo, organizando e dando visibilidade às informações certas, na hora certa.
 
 
 ## Público-Alvo
@@ -43,17 +46,16 @@ O tempo é um fator crítico, e cada minuto conta na tentativa de reencontrar um
 - Pessoas interessadas em ajudar em resgates de animais
 - Tutores de animais de estimação
 
-Idade: 18 a 50+ anos
+Idade: 15 a 50+ anos
 
-Perfil: empático, preocupado com bem-estar animal, ativo nas redes sociais
-
+Perfil: empático, preocupado com bem-estar animal,voluntário
 Localização: urbano
 
 
 
 ## Sobre o projeto
 
-Este projeto está sendo desenvolvido como parte da disciplina de Teste de Software, com o objetivo de aplicar na prática os conhecimentos adquiridos.
+Este projeto está foi desenvolvido como parte da disciplina de Teste de Software, com o objetivo de aplicar na prática os conhecimentos adquiridos.
 
 ## Funcionalidades
 
@@ -70,6 +72,9 @@ Este projeto está sendo desenvolvido como parte da disciplina de Teste de Softw
   
 
 ## Requisitos
+Requisitos de software são as funcionalidades, comportamentos e restrições que um sistema deve atender para satisfazer as necessidades dos usuários e dos objetivos do projeto. Eles servem como base para o desenvolvimento, testes e validação do sistema, garantindo que o produto final esteja de acordo com o que foi planejado.
+
+Acesse aqui os requisitos completos do sistema, detalhando todas as funcionalidades e critérios essenciais para o desenvolvimento e validação do projeto.
 
 [Link para a lista de Requisitos](https://docs.google.com/document/d/1EYoQ44Gx-95OogUSofc3tyotbXlKsMWm8AIZHBd4r20/edit?usp=sharing)
 
@@ -78,12 +83,9 @@ Este projeto está sendo desenvolvido como parte da disciplina de Teste de Softw
 [Link para as telas do figma ](https://www.figma.com/design/d7kZKToOoIcSnbQESBHwTy/conectapatas?node-id=151-222&t=MC8lC0GFTquzLjSG-1)
 
 ## Plano de teste
+Confira o plano de teste detalhado do sistema, com todos os casos e estratégias para garantir a qualidade e o funcionamento correto da aplicação.
 
 [Link para o Plano de Teste](https://docs.google.com/document/d/1YwLPc9b5DSMtCJcESUj04BqrZhdgsl1hS6jMqaI3jrA/edit?usp=sharing)
-
-## Casos de teste
-
-[Link para os Casos de Teste](https://docs.google.com/document/d/158eECxkbcNQG_3RfBxjyvDJ1ADKsxnoz/edit?usp=sharing&ouid=107865142840648322558&rtpof=true&sd=true)
 
 
 
