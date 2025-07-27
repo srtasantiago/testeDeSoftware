@@ -12,7 +12,7 @@ export class AnimalsService {
     @InjectRepository(Animal)
     private readonly animalsRepository: Repository<Animal>,
     private readonly cloudinaryService: CloudinaryService
-  ) {}
+  ) { }
 
   async create(createAnimalDto: CreateAnimalDto, userId: string): Promise<Animal> {
     const animal = this.animalsRepository.create({
@@ -31,11 +31,7 @@ export class AnimalsService {
     }
 
     if (animal.imagem_url) {
-      try {
-        await this.cloudinaryService.deleteFile(animal.imagem_url);
-      } catch (error) {
-        console.error('Erro ao deletar imagem antiga:', error);
-      }
+      await this.cloudinaryService.deleteFile(animal.imagem_url);
     }
 
     const imagemUrl = await this.cloudinaryService.uploadFile(file);
@@ -53,7 +49,7 @@ export class AnimalsService {
       queryBuilder.andWhere('animals.status = :status', { status });
     }
 
-	if (user_id) {
+    if (user_id) {
       queryBuilder.andWhere('animals.user_id = :user_id', { user_id });
     }
 

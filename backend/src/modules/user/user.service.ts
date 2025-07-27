@@ -15,7 +15,7 @@ export class UsersService {
   constructor(
     @InjectRepository(User)
     private usersRepository: Repository<User>,
-  ) {}
+  ) { }
 
   async create(createUserDto: CreateUserDto) {
     const { email, senha, ...rest } = createUserDto;
@@ -46,7 +46,7 @@ export class UsersService {
       throw new ConflictException('Usuário já existe com este email');
     }
 
-    if (updateUserDto.senha && updateUserDto.senha !== user.senha) {
+    if (updateUserDto.senha && !bcrypt.compareSync(updateUserDto.senha, user.senha)) {
       updateUserDto.senha = await bcrypt.hash(updateUserDto.senha, 10);
     }
 
@@ -57,6 +57,7 @@ export class UsersService {
 
   async remove(id: string): Promise<void> {
     const user = await this.findById(id);
+
     await this.usersRepository.remove(user);
   }
 
