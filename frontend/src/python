@@ -1,0 +1,24 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+import time
+
+# Inicializa o Chrome (baixa driver automaticamente)
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+
+# Abre a página de login
+driver.get("http://localhost:3000/login")
+
+time.sleep(2)  # Espera carregar
+
+# Preenche os campos
+driver.find_element(By.NAME, "email").send_keys("teste@email.com")
+driver.find_element(By.NAME, "password").send_keys("123456")
+
+# Envia o formulário
+driver.find_element(By.TAG_NAME, "form").submit()
+
+time.sleep(5)  # Espera para ver resultado
+
+driver.quit()  # Fecha o navegador
