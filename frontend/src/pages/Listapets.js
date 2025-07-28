@@ -1,26 +1,34 @@
-const pets = [
-  { id: 1, nome: "Bolt", idade: 2, raca: "Vira-lata", imagem: "https://via.placeholder.com/150" },
-  { id: 2, nome: "Luna", idade: 1, raca: "Poodle", imagem: "https://via.placeholder.com/150" },
-  { id: 3, nome: "Rex", idade: 4, raca: "Pastor Alemão", imagem: "https://via.placeholder.com/150" }
+import { Link } from 'react-router-dom';
+
+const petsExemplo = [
+  { id: 1, nome: 'Bob', raca: 'Vira-lata', idade: 3, tamanho: 'Médio' },
+  { id: 2, nome: 'Mia', raca: 'Siamês', idade: 2, tamanho: 'Pequeno' },
+  { id: 3, nome: 'Thor', raca: 'Labrador', idade: 5, tamanho: 'Grande' },
 ];
 
 export default function Listapets() {
   return (
-    <div className="min-h-screen bg-yellow-50 p-6">
-      <h1 className="text-3xl font-bold text-center text-[#fcad0b] mb-8">Pets para Adoção</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        {pets.map((pet) => (
-          <div key={pet.id} className="bg-white rounded-xl shadow-md p-4 text-center">
-            <img src={pet.imagem} alt={pet.nome} className="w-full h-40 object-cover rounded-md mb-4" />
-            <h2 className="text-xl font-bold text-[#fcad0b]">{pet.nome}</h2>
-            <p className="text-gray-600">Raça: {pet.raca}</p>
-            <p className="text-gray-600">Idade: {pet.idade} ano(s)</p>
-            <button className="mt-4 bg-[#fcad0b] text-white px-4 py-2 rounded-full hover:bg-[#e09b00]">
-              Ver Detalhes
-            </button>
-          </div>
+    <div className="p-8 max-w-xl mx-auto">
+      <h2 className="text-3xl font-bold mb-6 text-[#fcad0b]">Pets para adoção</h2>
+      <ul>
+        {petsExemplo.map(pet => (
+          <li key={pet.id} className="mb-4 border p-4 rounded shadow-sm">
+            <strong>{pet.nome}</strong> - {pet.raca} - {pet.idade} anos - {pet.tamanho}
+            <div className="mt-2">
+              <Link to={`/perfil/${pet.id}`} className="text-[#fcad0b] hover:underline">
+              
+                Ver perfil
+              </Link>
+            </div>
+          </li>
         ))}
-      </div>
+      </ul>
+      <Link
+        to="/cadastropet"
+        className="inline-block mt-6 bg-[#fcad0b] text-white font-bold py-2 px-4 rounded"
+      >
+        Cadastrar novo pet
+      </Link>
     </div>
   );
 }
