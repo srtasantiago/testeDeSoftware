@@ -78,6 +78,10 @@ Acesse aqui os requisitos completos do sistema, detalhando todas as funcionalida
 
 [Link para a lista de Requisitos](https://docs.google.com/document/d/1EYoQ44Gx-95OogUSofc3tyotbXlKsMWm8AIZHBd4r20/edit?usp=sharing)
 
+
+Para entender melhor a arquitetura do sistema, as decisões técnicas que orientaram seu desenvolvimento, as tecnologias e ferramentas utilizadas em cada etapa, bem como a abordagem adotada para testes e validação, recomendamos a leitura do artigo completo. Nele, apresentamos uma visão abrangente de todo o processo de construção do sistema, destacando os principais desafios enfrentados, as soluções aplicadas e os aprendizados obtidos ao longo do projeto. Acesse pelo link abaixo:
+[link para o artigo] (https://www.overleaf.com/4296588249kydkdpwpxjcp#440aa0)
+
 ## Figma
 
 [Link para as telas do figma ](https://www.figma.com/design/d7kZKToOoIcSnbQESBHwTy/conectapatas?node-id=151-222&t=MC8lC0GFTquzLjSG-1)
