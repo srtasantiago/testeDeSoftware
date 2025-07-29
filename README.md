@@ -41,8 +41,7 @@ E o mais grave: o tempo, que é essencial nessas situações, acaba sendo desper
 ## Público-Alvo
 
 - Protetores independentes  
-- ONGs de proteção animal  
-- Cuidadores temporários  
+- ONGs de proteção animal   
 - Pessoas interessadas em ajudar em resgates de animais
 - Tutores de animais de estimação
 
